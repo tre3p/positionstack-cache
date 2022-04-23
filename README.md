@@ -31,7 +31,7 @@ Environment variables to start with Docker:
 > ACCESS_KEY inside of docker-compose.yml. Must be filled with your PositionStack access key.
 
 ```sh
-git clone https://github.com/k0damaDEV/ktSampleGeoCache geoCache
+git clone https://github.com/tre3p/ktSampleGeoCache geoCache
 cd geoCache
 docker-compose up
 ```
@@ -51,7 +51,7 @@ Environment variables to start local:
 
 ```sh
 redis-server
-git clone https://github.com/k0damaDEV/ktSampleGeoCache geoCache
+git clone https://github.com/tre3p/ktSampleGeoCache geoCache
 cd geoCache
 make start
 ```
