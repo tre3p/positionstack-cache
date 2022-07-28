@@ -27,6 +27,7 @@ dependencies {
     implementation("org.springframework.data:spring-data-redis:2.6.0")
     implementation("com.konghq:unirest-java:3.13.4")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.13.0")
+    implementation("org.springdoc:springdoc-openapi-ui:1.5.12")
 }
 
 tasks.withType<KotlinCompile> {

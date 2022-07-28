@@ -1,15 +1,9 @@
-FROM ubuntu
-
-RUN apt update \
-        && apt install default-jre -y \
-        && apt install default-jdk -y \
-        && apt install openjdk-11-jdk -y \
-        && apt-get -y install make
+FROM gradle:7.1.0-jdk11
 
 COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-CMD make start
+CMD ["gradle", "bootRun"]
 
 EXPOSE 3000

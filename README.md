@@ -4,26 +4,7 @@
 
 # API:
 
-Forward geocoding:
-
-> PUT http://localhost:3000/forward
-
-```
-{
-  "address": "London, Bakers str."
-}
-```
-
-Reverse geocoding:
-
-> PUT http://localhost:3000/reverse
-
-```
-{
-  "longitude": 41.4667557,
-  "latitude": 69.1597617
-}
-```
+After launching, the documentation will be available at http://localhost:300/swagger-ui.html
 
 # To start with Docker:
 
