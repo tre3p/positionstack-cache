@@ -4,7 +4,7 @@
 
 # API:
 
-After launching, the documentation will be available at http://localhost:300/swagger-ui.html
+After launching, the documentation will be available at http://localhost:3000/swagger-ui.html
 
 # To start with Docker:
 
